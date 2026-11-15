@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# partes do jogo e instalador: binários, sem conversão de fim de linha, sem diff
+dados/*.part* binary
+dados/*.zip binary
+releases/*.exe binary
+*.exe binary
+*.zip binary
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

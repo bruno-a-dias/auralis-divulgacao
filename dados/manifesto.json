@@ -1,0 +1,27 @@
+{
+  "versao": "0.99.046",
+  "gerado_em": "2026-11-15T22:53:58Z",
+  "formato": "zip-dividido",
+  "arquivos": [
+    {
+      "nome": "AURALIS-0.99.046.part001.76d0aba1",
+      "bytes": 94371840,
+      "sha256": "76d0aba167aacef8935395a64f4c1eb5d21c8ad093fdf9963c6570f6e5473962"
+    },
+    {
+      "nome": "AURALIS-0.99.046.part002.efa28656",
+      "bytes": 87721895,
+      "sha256": "efa286564ec41e1435798ba4785b9edee7f8f31596e4a343798416ad9886c6cc"
+    }
+  ],
+  "total_bytes": 182093735,
+  "bytes_descompactados": 240063040,
+  "sha256_zip": "cef27eda21ce9a809ed7dee38fd16b2fc603cbc4c35d64670c79177434da94d3",
+  "conteudo": [
+    {
+      "nome": "AURALIS.exe",
+      "bytes": 240063040,
+      "sha256": "464f51af19e40b1530116fc9cd3f986fafa11200bd309db054add074dd815d27"
+    }
+  ]
+}
