@@ -1,27 +1,27 @@
 {
   "versao": "0.99.046",
-  "gerado_em": "2026-11-15T22:53:58Z",
+  "gerado_em": "2026-11-16T04:20:52Z",
   "formato": "zip-dividido",
   "arquivos": [
     {
-      "nome": "AURALIS-0.99.046.part001.76d0aba1",
+      "nome": "AURALIS-0.99.046.part001.e83e599a",
       "bytes": 94371840,
-      "sha256": "76d0aba167aacef8935395a64f4c1eb5d21c8ad093fdf9963c6570f6e5473962"
+      "sha256": "e83e599a5c2b0b1a806e0daf260fa191d3ebd93c0366e0b38c3064c5dfb8a024"
     },
     {
-      "nome": "AURALIS-0.99.046.part002.efa28656",
-      "bytes": 87721895,
-      "sha256": "efa286564ec41e1435798ba4785b9edee7f8f31596e4a343798416ad9886c6cc"
+      "nome": "AURALIS-0.99.046.part002.1846d3e6",
+      "bytes": 87774909,
+      "sha256": "1846d3e6d4b58571ad10859cac1ccb9d5e002a33daf0bb001b1ed1dbd121a97c"
     }
   ],
-  "total_bytes": 182093735,
-  "bytes_descompactados": 240063040,
-  "sha256_zip": "cef27eda21ce9a809ed7dee38fd16b2fc603cbc4c35d64670c79177434da94d3",
+  "total_bytes": 182146749,
+  "bytes_descompactados": 240116304,
+  "sha256_zip": "e608f56a24883bb946bc00a005758c65c1ed1d3f9674d9e6a8100320f0c4d00a",
   "conteudo": [
     {
       "nome": "AURALIS.exe",
-      "bytes": 240063040,
-      "sha256": "464f51af19e40b1530116fc9cd3f986fafa11200bd309db054add074dd815d27"
+      "bytes": 240116304,
+      "sha256": "660d9c319caefbc4d32dae21056a852609e880f19d1576e216eaa74c00508787"
     }
   ]
 }

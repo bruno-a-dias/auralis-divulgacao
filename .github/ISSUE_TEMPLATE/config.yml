@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Jogar no navegador / Play in browser
+    url: https://auralisgame.vercel.app/
+    about: A versão web é a mais atual.
+  - name: Página do jogo
+    url: https://auralisgame.vercel.app/sobre
+    about: Trailer, galeria e lista de conquistas.

@@ -1,0 +1,59 @@
+name: Relatar um bug
+description: Algo travou, quebrou ou não funcionou como esperado.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Obrigado por avisar! Quanto mais detalhes, mais rápido eu consigo corrigir. Pode escrever em português ou inglês.
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do jogo
+      description: Em Opções → Sobre, ou no título do jogo.
+      placeholder: "0.99.046"
+    validations:
+      required: true
+  - type: dropdown
+    id: plataforma
+    attributes:
+      label: Como você jogou?
+      options:
+        - Navegador (computador)
+        - Navegador (celular/tablet)
+        - Windows (instalador)
+        - Windows (instalação manual)
+    validations:
+      required: true
+  - type: input
+    id: ambiente
+    attributes:
+      label: Navegador ou Windows
+      description: "Ex.: Chrome 130, Firefox, Windows 11. Se usava controle, diga o modelo."
+    validations:
+      required: true
+  - type: input
+    id: fase
+    attributes:
+      label: Fase e modo
+      placeholder: "Fase 5, 1 jogador / coop local / Arena..."
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que aconteceu e o que você esperava
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Capturas de tela ou vídeo (opcional)
+      description: Pode arrastar imagens para cá.

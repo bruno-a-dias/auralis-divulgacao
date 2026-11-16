@@ -1,0 +1,36 @@
+name: Sugerir uma melhoria
+description: Uma ideia, um ajuste de equilíbrio, uma tradução melhor.
+labels: ["sugestão"]
+body:
+  - type: markdown
+    attributes:
+      value: Ideias são bem-vindas! O feedback ajuda a definir o caminho até a versão 1.0.
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Sobre o que é?
+      options:
+        - Jogabilidade / equilíbrio
+        - Coop local
+        - Tradução / idioma
+        - Acessibilidade
+        - Controles / gamepad
+        - Visual / áudio
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Qual é a sua ideia?
+    validations:
+      required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Que problema isso resolve ou o que melhora?
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do jogo
+      placeholder: "0.99.046"
